@@ -19,17 +19,17 @@ cd AgenticRAG
     python -m venv venv
 
 ### Windows
-venv\Scripts\activate
+ venv\Scripts\activate
 
 ### macOS/Linux
-source venv/bin/activate
+  source venv/bin/activate
 
 3. Install Required Packages
 
     pip install -r requirements.txt
 
 4. Configure Environment Variables
-Create a .env file in the root directory and add your Cohere API key:
+   Create a .env file in the root directory and add your Cohere API key:
 
     COHERE_API_KEY=your_cohere_api_key_here
 

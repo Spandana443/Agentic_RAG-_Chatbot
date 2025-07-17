@@ -59,7 +59,7 @@ pandas
 
 python-dotenv
 
-#### Usage
+## Usage
 Upload supported documents (PDF, DOCX, PPTX, CSV, TXT, MD).
 
 Click Process Uploaded Documents to extract and index content.

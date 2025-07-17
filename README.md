@@ -11,31 +11,31 @@ AgenticRAG is a chatbot that answers questions based on uploaded documents by co
 1. Clone the Repository
 
 
-git clone https://github.com/yourusername/AgenticRAG.git
+    git clone https://github.com/yourusername/AgenticRAG.git
 cd AgenticRAG
 
 2. Create and Activate Virtual Environment
 
-python -m venv venv
+    python -m venv venv
 
-# Windows
+### Windows
 venv\Scripts\activate
 
-# macOS/Linux
+### macOS/Linux
 source venv/bin/activate
 
 3. Install Required Packages
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Configure Environment Variables
 Create a .env file in the root directory and add your Cohere API key:
 
-COHERE_API_KEY=your_cohere_api_key_here
+    COHERE_API_KEY=your_cohere_api_key_here
 
 5. Run the Application
 
-streamlit run ui/streamlit_ui.py
+    streamlit run ui/streamlit_ui.py
 
 
 #### Dependencies
